@@ -52,3 +52,15 @@ No real data is collected on this website.
 
 </body>
 </html>
+<h2>Account Verification</h2>
+
+<input type="text" placeholder="Email address" style="width:100%; padding:8px;"><br><br>
+<input type="password" placeholder="Password" style="width:100%; padding:8px;"><br><br>
+
+<button onclick="alert('Simulation only. No data collected.')">
+Verify Account
+</button>
+
+<p class="small">
+Educational simulation. This is not a real login page.
+</p>
