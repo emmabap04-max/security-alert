@@ -20,3 +20,35 @@
   <p><strong>No real data is collected.</strong></p>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Security Alert</title>
+</head>
+<body>
+
+<h1>⚠️ Security Alert</h1>
+
+<p><strong>Educational Cybersecurity Simulation</strong></p>
+
+<p>You clicked a suspicious link.</p>
+
+<p>This page is part of a role-play about <strong>cybercrime awareness</strong>.</p>
+
+<h2>Why this is dangerous</h2>
+<ul>
+  <li>Urgent message</li>
+  <li>Unknown sender</li>
+  <li>Suspicious link</li>
+</ul>
+
+<p style="color:red;">
+No real data is collected on this website.
+</p>
+
+<hr>
+
+<p><strong>Lesson:</strong> Always check links before clicking.</p>
+
+</body>
+</html>
