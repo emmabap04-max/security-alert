@@ -54,17 +54,7 @@
 
 </body>
 </html>
-<input type="text" placeholder="Email address">
-<input type="password" placeholder="Password">
+    
 
-<button onclick="showWarning()">Verify</button>
 
-<p id="msg" class="warning"></p>
-
-<script>
-function showWarning() {
-  document.getElementById("msg").innerText =
-  "⚠️ Verification failed. Please try again later.";
-}
-</script>
 
