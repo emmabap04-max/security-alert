@@ -2,65 +2,57 @@
 <html>
 <head>
   <title>Security Alert</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      padding: 40px;
+    }
+    .container {
+      max-width: 420px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #0070f3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
 </head>
+
 <body>
+
+<div class="container">
   <h1>⚠️ Security Alert</h1>
 
-  <p>This page is part of an <strong>educational cybersecurity simulation</strong>.</p>
+  <p><strong>Educational Cybersecurity Simulation</strong></p>
 
   <p>You clicked a suspicious link.</p>
 
-  <h2>Why this is dangerous</h2>
+  <h3>Why this is dangerous</h3>
   <ul>
-    <li>Unknown sender</li>
     <li>Urgent message</li>
+    <li>Unknown sender</li>
     <li>Suspicious URL</li>
   </ul>
 
-  <p><strong>No real data is collected.</strong></p>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Security Alert</title>
-</head>
-<body>
+  <button onclick="alert('Simulation only. No data collected.')">
+    Verify Account
+  </button>
 
-<h1>⚠️ Security Alert</h1>
-
-<p><strong>Educational Cybersecurity Simulation</strong></p>
-
-<p>You clicked a suspicious link.</p>
-
-<p>This page is part of a role-play about <strong>cybercrime awareness</strong>.</p>
-
-<h2>Why this is dangerous</h2>
-<ul>
-  <li>Urgent message</li>
-  <li>Unknown sender</li>
-  <li>Suspicious link</li>
-</ul>
-
-<p style="color:red;">
-No real data is collected on this website.
-</p>
-
-<hr>
-
-<p><strong>Lesson:</strong> Always check links before clicking.</p>
+  <p style="color:red; font-size:12px;">
+    No real data is collected.
+  </p>
+</div>
 
 </body>
 </html>
-<h2>Account Verification</h2>
 
-<input type="text" placeholder="Email address" style="width:100%; padding:8px;"><br><br>
-<input type="password" placeholder="Password" style="width:100%; padding:8px;"><br><br>
 
-<button onclick="alert('Simulation only. No data collected.')">
-Verify Account
-</button>
-
-<p class="small">
-Educational simulation. This is not a real login page.
-</p>
